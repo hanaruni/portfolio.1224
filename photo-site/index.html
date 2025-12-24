@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>攝影作品集</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><span data-i18n="site.title">Hama·Runi</span></h1>
+      <nav class="main-nav">
+        <a href="index.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5"></path><path d="M9 22V12h6v10"></path></svg><span data-i18n="nav.home">首頁</span></a>
+        <a href="gallery.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 17l-5-5L8 21"></path></svg><span data-i18n="nav.gallery">作品集</span></a>
+        <a href="about.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><span data-i18n="nav.about">關於</span></a>
+        <a href="contact.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9 6 9-6"></path><path d="M21 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7"></path></svg><span data-i18n="nav.contact">聯絡</span></a>
+      </nav>
+      <div class="lang-switch">
+        <button data-lang="zh" aria-label="中文">中文</button>
+        <button data-lang="en" aria-label="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <svg class="hero-decor" viewBox="0 0 680 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0 60 C120 20, 240 100, 360 60 C480 20, 600 100, 680 60" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h2 class="fade-item" data-i18n="hero.title">捕捉瞬間，訴說故事</h2>
+        <p class="lead fade-item" data-i18n="hero.lead">專業攝影，紀錄生活與情感。</p>
+        <p><a class="btn" href="gallery.html" data-i18n="hero.cta">觀看作品</a></p>
+        <figure class="hero-photo fade-item" aria-hidden="false">
+          <img src="img/photo1.jpg" alt="黑白風格代表照">
+        </figure>
+      </div>
+    </section>
+
+    <section class="intro container">
+      <h3 data-i18n="intro.title">最新專案</h3>
+
+      <div class="projects-grid">
+        <a class="project-link" href="projects/nocturne.html">
+          <article class="project-card">
+            <img src="img/photo7.jpg" alt="Nocturne Portraits">
+            <h4 data-i18n="projects.1.title">Nocturne Portraits</h4>
+            <p data-i18n="projects.1.desc">一系列低調黑白人像，捕捉微妙情緒與光影。</p>
+          </article>
+        </a>
+
+        <a class="project-link" href="projects/luminous.html">
+          <article class="project-card">
+            <img src="img/photo8.jpg" alt="Luminous Horizons">
+            <h4 data-i18n="projects.2.title">Luminous Horizons</h4>
+            <p data-i18n="projects.2.desc">以細膩色調記錄寧靜風景，展現光線過渡之美。</p>
+          </article>
+        </a>
+
+        <a class="project-link" href="projects/whispered.html">
+          <article class="project-card">
+            <img src="img/photo1.jpg" alt="Whispered Vows">
+            <h4 data-i18n="projects.3.title">Whispered Vows</h4>
+            <p data-i18n="projects.3.desc">婚禮紀實系列，聚焦真實情感與柔和瞬間。</p>
+          </article>
+        </a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><span data-i18n="footer.copy">© 2025 Hama·Runi</span></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

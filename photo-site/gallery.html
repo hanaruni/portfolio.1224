@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>作品集 - 攝影作品集</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="index.html">Hama·Runi</a></h1>
+      <nav class="main-nav">
+          <a href="index.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5"></path><path d="M9 22V12h6v10"></path></svg><span data-i18n="nav.home">首頁</span></a>
+          <a href="gallery.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 17l-5-5L8 21"></path></svg><span data-i18n="nav.gallery">作品集</span></a>
+          <a href="about.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><span data-i18n="nav.about">關於</span></a>
+          <a href="contact.html"><svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9 6 9-6"></path><path d="M21 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7"></path></svg><span data-i18n="nav.contact">聯絡</span></a>
+      </nav>
+      <div class="lang-switch">
+        <button data-lang="zh" aria-label="中文">中文</button>
+        <button data-lang="en" aria-label="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 data-i18n="gallery.title">作品集</h2>
+
+    <div class="filters">
+      <button data-filter="*" class="active" data-i18n="filters.all">全部</button>
+      <button data-filter="portrait" data-i18n="filters.portrait">人像</button>
+      <button data-filter="landscape" data-i18n="filters.landscape">風景</button>
+      <button data-filter="wedding" data-i18n="filters.wedding">婚禮</button>
+    </div>
+
+    <div class="gallery-grid">
+      <figure class="gallery-item" data-category="portrait" data-date="2024-11-03" data-location-zh="台北" data-location-en="Taipei" data-story-zh="在傍晚窗邊以自然光拍攝，捕捉被攝者安靜的眼神。" data-story-en="Shot by a window at dusk with natural light, capturing a quiet gaze.">
+        <img src="img/photo1.jpg" alt="Portrait 1">
+        <figcaption>人像 — 柔和人像</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="landscape" data-date="2023-06-18" data-location-zh="宜蘭" data-location-en="Yilan" data-story-zh="黎明時分的薄霧讓山谷顯得柔和，長曝光呈現寧靜感。" data-story-en="Morning mist softened the valley; long exposure conveys tranquility.">
+        <img src="img/photo2.jpg" alt="Landscape 1">
+        <figcaption>風景 — 山水</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="street" data-date="2022-09-05" data-location-zh="台中" data-location-en="Taichung" data-story-zh="在人來人往的巷口等到一刻安靜，按下快門。" data-story-en="Waited at a busy alley until a moment of calm, then pressed the shutter.">
+        <img src="img/photo3.jpg" alt="Street 1">
+        <figcaption>街拍 — 日常街景</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="wedding" data-date="2024-04-12" data-location-zh="台南" data-location-en="Tainan" data-story-zh="新人在午後的庭園交換誓言，光線柔和充滿溫度。" data-story-en="The couple exchanged vows in a sunlit garden; the light felt warm and intimate.">
+        <img src="img/photo4.jpg" alt="Wedding 1">
+        <figcaption>婚禮 — 甜蜜時刻</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="architecture" data-date="2021-11-20" data-location-zh="台北大稻埕" data-location-en="Dadaocheng, Taipei" data-story-zh="尋找城市中的對稱與線條，光影帶出建築的節奏。" data-story-en="Searched for symmetry and lines in the city; light and shadow reveal architectural rhythm.">
+        <img src="img/photo5.jpg" alt="Architecture 1">
+        <figcaption>建築 — 線條與光影</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="nature" data-date="2023-03-10" data-location-zh="阿里山" data-location-en="Alishan" data-story-zh="晨霧中的林間步道，低飽和色調營造出靜謐的氛圍。" data-story-en="A misty forest path at dawn; muted tones create a tranquil atmosphere.">
+        <img src="img/photo6.jpg" alt="Nature 1">
+        <figcaption>自然 — 森林靜謐</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="portrait" data-date="2022-12-01" data-location-zh="高雄" data-location-en="Kaohsiung" data-story-zh="使用單燈製造戲劇感，強調表情與細節。" data-story-en="Used a single light for dramatic effect, emphasizing expression and detail.">
+        <img src="img/photo7.jpg" alt="Portrait 2">
+        <figcaption>人像 — 黑白情緒</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="landscape" data-date="2023-08-14" data-location-zh="墾丁" data-location-en="Kenting" data-story-zh="傍晚沿海拍攝，長焦壓縮遠近層次，色彩溫柔。" data-story-en="Shot at the coast during dusk; telephoto compression creates layered depth and gentle colors.">
+        <img src="img/photo8.jpg" alt="Landscape 2">
+        <figcaption>風景 — 海岸線</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="street" data-date="2021-05-22" data-location-zh="台北中山區" data-location-en="Zhongshan, Taipei" data-story-zh="午後的咖啡店外，一瞬間的表情成為故事的開端。" data-story-en="Outside a café one afternoon, a fleeting expression became the start of a story.">
+        <img src="img/photo9.jpg" alt="Street 2">
+        <figcaption>街拍 — 城市角落</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="wedding" data-date="2024-02-02" data-location-zh="新竹" data-location-en="Hsinchu" data-story-zh="親友的笑容映照出當天的喜悅，抓取真實互動很重要。" data-story-en="Friends' smiles reflected the day's joy; capturing real interactions matters most.">
+        <img src="img/photo10.jpg" alt="Wedding 2">
+        <figcaption>婚禮 — 親友祝福</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="architecture" data-date="2020-10-09" data-location-zh="台北市信義區" data-location-en="Xinyi, Taipei" data-story-zh="以低角度看建築，強調幾何與光影交織。" data-story-en="Shot from a low angle to emphasize geometry and interplay of light and shadow.">
+        <img src="img/photo11.jpg" alt="Architecture 2">
+        <figcaption>建築 — 現代構築</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="nature" data-date="2022-04-30" data-location-zh="陽明山" data-location-en="Yangmingshan" data-story-zh="近距離捕捉一朵花的細節，展現自然之微小之美。" data-story-en="Close-up of a bloom revealing the small wonders of nature.">
+        <img src="img/photo12.jpg" alt="Nature 2">
+        <figcaption>自然 — 花卉特寫</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="portrait" data-date="2021-07-16" data-location-zh="台南安平" data-location-en="Anping, Tainan" data-story-zh="紀實風格的拍攝，紀錄人物與環境的自然互動。" data-story-en="Documentary-style portraiture capturing natural interaction between subject and environment.">
+        <img src="img/photo13.jpg" alt="Portrait 3">
+        <figcaption>人像 — 紀實風格</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="street" data-date="2020-12-31" data-location-zh="台北西門町" data-location-en="Ximending, Taipei" data-story-zh="跨年夜的燈光與人潮，嘗試用慢速快門表現動感。" data-story-en="New Year's Eve lights and crowds; used slow shutter to convey motion.">
+        <img src="img/photo14.jpg" alt="Street 3">
+        <figcaption>街拍 — 夜色光線</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="landscape" data-date="2023-01-07" data-location-zh="蘭嶼" data-location-en="Lanyu" data-story-zh="黎明的海岸線，日出瞬間的顏色與輪廓讓人動容。" data-story-en="Coastal sunrise; the colors and silhouettes at dawn are moving.">
+        <img src="img/photo15.jpg" alt="Landscape 3">
+        <figcaption>風景 — 日出</figcaption>
+      </figure>
+    </div>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lb-close" class="lb-close">×</button>
+      <div class="lb-content">
+        <img id="lb-img" src="" alt="">
+        <div class="lb-meta">
+          <h3 id="lb-caption"></h3>
+          <p class="lb-line"><strong data-i18n="meta.date">拍攝日期：</strong> <span id="lb-date"></span></p>
+          <p class="lb-line"><strong data-i18n="meta.location">地點：</strong> <span id="lb-location"></span></p>
+          <p id="lb-story"></p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer"> <div class="container">© 2025 Hama·Runi</div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
